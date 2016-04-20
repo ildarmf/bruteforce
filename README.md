@@ -20,6 +20,14 @@ You have to add pathes into .bashrc
 ```
 nano /home/%username%/.bashrc
 ```
+## Install optional package ##
+```
+mkdir -p $GOPATH/src/golang.org/x/
+Then clone crypto from github.
+
+cd $GOPATH/src/golang.org/x/
+git clone https://github.com/golang/crypto.git
+```
 ```
 export GOROOT=/usr/local/go
 export PATH=$GOROOT/bin:$PATH

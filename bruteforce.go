@@ -6,7 +6,7 @@ import (
         "os"
 	"time"
 //      "bytes"
-        "ssh"
+        "golang.org/x/crypto/ssh"
 )
 
 func readLines(path string) ([]string, error) {
