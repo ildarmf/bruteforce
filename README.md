@@ -29,9 +29,9 @@ cd $GOPATH/src/golang.org/x/
 git clone https://github.com/golang/crypto.git
 ```
 ```
-export GOROOT=/usr/local/go
+export GOPATH=/home/USERNAME/go/
+export GOROOT=/usr/local/go/
 export PATH=$GOROOT/bin:$PATH
-export GOPATH=/usr/local/go/
 export PATH=$GOPATH/:$PATH
 ```
 
